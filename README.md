@@ -10,7 +10,7 @@
 ## Contains
 
 [![Link](https://img.shields.io/badge/Link-%20Online_zoo-blue?style=flat&logo=link&logoColor=white)](https://rolling-scopes-school.github.io/atorami-JSFE2022Q3/online-zoo/pages/main/index.html)
-[![Link](https://img.shields.io/badge/Link-%20Shelter-blue?style=flat&logo=link&logoColor=white)](https://rolling-scopes-school.github.io/atorami-JSFE2022Q3/online-zoo/pages/main/index.html)
+[![Link](https://img.shields.io/badge/Link-%20Shelter-blue?style=flat&logo=link&logoColor=white)](https://atorami.github.io/rs_school__simple_html/shelter/)
 
 ## Screenshot
 
