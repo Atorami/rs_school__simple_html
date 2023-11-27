@@ -1,16 +1,16 @@
-# Simple Html
+# Online zoo website
 
 
-    A projects written as part of the training at RS SCHOOL, a simple websites.
+    A project written as part of the training at RS SCHOOL (Q2 - stream), a simple website for an online zoo.
     Technologies such as:
      •  HTML
      •  CSS
      •  JavaScript
 
-## Contains
+## GH-Pages
 
-[![Link](https://img.shields.io/badge/Link-%20Online_zoo-blue?style=flat&logo=link&logoColor=white)](https://rolling-scopes-school.github.io/atorami-JSFE2022Q3/online-zoo/pages/main/index.html)
-[![Link](https://img.shields.io/badge/Link-%20Shelter-blue?style=flat&logo=link&logoColor=white)](https://rolling-scopes-school.github.io/atorami-JSFE2022Q3/online-zoo/pages/main/index.html)
+[![Link](https://img.shields.io/badge/Link-Click%20Here-blue?style=flat&logo=link&logoColor=white)](https://rolling-scopes-school.github.io/atorami-JSFE2022Q3/online-zoo/pages/main/index.html)
+
 
 ## Screenshot
 
