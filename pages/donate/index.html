@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/styles/normalize.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grey-layout" onclick="close_menu()"></div>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="logo">
+                    <a href="../main/index.html">
+                        <h1>PetStory<br><span>o</span>nline</h1>
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a id = "top-about" href="../main/index.html">About</a></li>
+                        <li class="nav__item"><a href="">Map</a></li>
+                        <li class="nav__item"><a href="">Zoos</a></li>
+                        <li class="nav__item"><a class = "active" href="../donate/index.html">Donate</a></li>
+                        <li class="nav__item"><a href="">Contact us</a></li>
+                        <li class="nav__item"><a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks">Designed by ©</a></li>
+                    </ul>
+                </nav>
+                <div class="burger-menu"  onclick="open_menu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="burger-navigation">
+            <div class="burger-logo">
+                <a href="../main/index.html">
+                    <h1>PetStory<br><span>o</span>nline</h1>
+                </a>
+            </div>
+            <nav class="burger-nav">
+                <ul class="burger-nav__list">
+                    <li class="burger-nav__item"><a class = "active" id = "top-about" href="">About</a></li>
+                    <li class="burger-nav__item"><a href="">Map</a></li>
+                    <li class="burger-nav__item"><a href="">Zoos</a></li>
+                    <li class="burger-nav__item"><a href="../donate/index.html">Donate</a></li>
+                    <li class="burger-nav__item"><a href="">Contact us</a></li>
+                    <li class="burger-nav__item"><a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks">Designed by ©</a></li>
+                </ul>
+            </nav>
+            <div class="burger-cross" onclick="close_menu()">
+                <img src="../../assets/icons/x_icon.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <section class="promo">
+    </section>
+    <section class="main">
+        <div class="container">
+            <div class="main__wrapper">
+                <div class="main__info">
+                    <h3>THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+                    <p>Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.  But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.</p>
+                </div>
+                <div class="main-pick">
+                    <h3>Donation Information</h3>
+                    <div class="feed">
+                        <h2>Pick and feed a friend</h2>
+                        <p>We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+                        <div class="img-block">
+                            <div class="days">
+                                <p class="number">4</p>
+                                <p class="text">Panda diet for the day.</p>
+                            </div>
+                            <img class="plus" src="../../assets/icons/x_icon.svg" alt="" >
+                            <img class="panda" src="../../assets/icons/panda_widget1.png" alt="" >
+                        </div>
+                        <div class="amout-block">
+                            <p>Amount</p>
+                            <div class="amount-bar">
+                                <div class="amount-bar__progress">
+                                    <form action="" method="POST" class="">
+                                            <input type="radio" name="debt-amount" id="1" value="1" required>
+                                            <label for="1" data-debt-amount="$5000"></label>
+                                            <input type="radio" name="debt-amount" id="2" value="2" required>
+                                            <label for="2" data-debt-amount="$2000"></label>
+                                            <input type="radio" name="debt-amount" id="3" value="3" required>
+                                            <label for="3" data-debt-amount="$1000"></label>
+                                            <input type="radio" name="debt-amount" id="4" value="4" required>
+                                            <label for="4" data-debt-amount="$500"></label>
+                                            <input type="radio" name="debt-amount" id="5" value="5" required>
+                                            <label for="5" data-debt-amount="$250"></label>
+                                            <input type="radio" name="debt-amount" id="6" value="6" required>
+                                            <label for="5" data-debt-amount="$100"></label>
+                                            <input type="radio" name="debt-amount" id="7" value="7" required>
+                                            <label for="5" data-debt-amount="$50"></label>
+                                            <input type="radio" name="debt-amount" id="8" value="8" required>
+                                            <label for="5" data-debt-amount="$25"></label>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="other-amount">
+                                <input type="number" placeholder="Another amount" maxlength="4">
+                                <div class="radio-group">
+                                   
+                                    <input type="radio" name="monthly" id="m1">
+                                    <label for="m1">Monthly</label>
+                                    
+                                    <input type="radio" name="monthly" id="m1" checked="checked">
+                                    <label for="m1">Once</label>
+                                </div>
+                            </div>
+                                
+                            <button class = "r-button" type="submit">Feed a friend now</button>
+                            <p class="last-text">Share with your friends on social networks </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="footer__header-section">
+                    <div class="logo">
+                        <a href="../main/index.html">
+                            <h2>PetStory<br><span>o</span>nline</h2>
+                        </a>
+                    </div>
+                    <div class="subscribe">
+                        <div class="subtitle">
+                            <p>Subscribe to our news</p>
+                        </div>
+                        <form action="" class="subscribe-form">
+                            <input type="email" name="email" placeholder="Enter your email">
+                            <button type="submit" class="sub-button">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer__middle-section">
+                    <button class="sqr-button"><a href="../donate/index.html">donate for volunteers</a></button>
+                </div>
+                <div class="footer__bottom-section">
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/"><img src="../../assets/icons/facebook.png" alt="" class="social"></a></li>
+                            <li><a href="https://twitter.com/?lang=en"><img src="../../assets/icons/twitter.png" alt="" class="social"></a></li>
+                            <li><a href="https://www.instagram.com/"><img src="../../assets/icons/instagram.png" alt="" class="social"></a></li>
+                            <li><a href="https://www.youtube.com/"><img src="../../assets/icons/youtube.png" alt="" class="social"></a></li>
+                        </ul>
+                    </div>
+                    <nav class="bottom-nav">
+                        <ul>
+                            <li><a href="../../pages/main/index.html" class = "active">About</a></li>
+                            <li><a href="">Map</a></li>
+                            <li><a href="">Zoos</a></li>
+                            <li><a href="">Contact us</a></li>
+                        </ul>
+                    </nav>
+                    
+                    <div class="rights">
+                        <a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks">Designed by Alisa Samborskaya</a>
+                        <a href="https://rs.school/index.html">©RSSchool & ©Yem Digital 2021</a>
+                    </div>
+                </div>
+                <div class="social-640">
+                    <ul>
+                        <li><a href="https://www.facebook.com/"><img src="../../assets/icons/facebook-640.svg" alt="" class="social"></a></li>
+                        <li><a href="https://twitter.com/?lang=en"><img src="../../assets/icons/twitter-640.svg" alt="" class="social"></a></li>
+                        <li><a href="https://www.instagram.com/"><img src="../../assets/icons/instagram-640.svg" alt="" class="social"></a></li>
+                        <li><a href="https://www.youtube.com/"><img src="../../assets/icons/youtube-640.svg" alt="" class="social"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
